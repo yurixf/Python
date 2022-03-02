@@ -1,0 +1,5 @@
+n = input('Digite algo:')
+print ('Seu nome é: {:20}!'.format(n))
+print ('Seu nome é: {:=>20}!'.format(n))
+print ('Seu nome é: {:=<20}!'.format(n))
+print ('Seu nome é: {:=^20}!'.format(n))
